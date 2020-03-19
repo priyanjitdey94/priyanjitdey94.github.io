@@ -1,11 +1,13 @@
 <script>
-	export let name;
+	import Home from './pages/Home.svelte';
 </script>
 
 <style>
-	h1 {
-		color: purple;
+	:global(html) {
+		font-size: 14px;
+		padding: 0;
+		margin: 0;
 	}
 </style>
 
-<h1>Hello {name}!</h1>
+<Home />
