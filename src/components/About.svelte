@@ -113,22 +113,22 @@
     </div>
   </div>
   <div class='aside-footer'>
-    <a href='https://github.com/priyanjitdey94' class='aside-footer-icon'>
+    <a href='https://github.com/priyanjitdey94' class='aside-footer-icon' target="_blank" rel="noopener noreferrer">
       <GithubIcon size='24' />
     </a>
-    <a href='https://www.facebook.com/priyanjit.dey.3/' class='aside-footer-icon'>
+    <a href='https://www.facebook.com/priyanjit.dey.3/' class='aside-footer-icon' target="_blank" rel="noopener noreferrer">
       <FacebookIcon size='24' />
     </a>
-    <a href='https://twitter.com/priyanjitdey94' class='aside-footer-icon'>
+    <a href='https://twitter.com/priyanjitdey94' class='aside-footer-icon' target="_blank" rel="noopener noreferrer">
       <TwitterIcon size='24' />
     </a>
-    <a href='https://www.linkedin.com/in/priyanjit-dey-5b0101102/' class='aside-footer-icon'>
+    <a href='https://www.linkedin.com/in/priyanjit-dey-5b0101102/' class='aside-footer-icon' target="_blank" rel="noopener noreferrer">
       <LinkedinIcon size='24' />
     </a>
-    <a href='https://codesandbox.io/u/priyanjitdey94' class='aside-footer-icon'>
+    <a href='https://codesandbox.io/u/priyanjitdey94' class='aside-footer-icon' target="_blank" rel="noopener noreferrer">
       <CodesandboxIcon size='24' />
     </a>
-    <a href='https://codepen.io/priyanjitdey94' class='aside-footer-icon'>
+    <a href='https://codepen.io/priyanjitdey94' class='aside-footer-icon' target="_blank" rel="noopener noreferrer">
       <CodepenIcon size='24' />
     </a>
   </div>
