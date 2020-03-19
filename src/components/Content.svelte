@@ -21,8 +21,8 @@
     border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 2.75rem);
-    overflow-y: scroll;
+    min-height: calc(100vh - 2.75rem);
+    /* overflow-y: scroll; */
   }
 
   .content-item:not(:first-child) {

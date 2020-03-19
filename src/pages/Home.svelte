@@ -7,7 +7,7 @@
 <style>
   :global(body) {
     --aside-width:   320px;
-    --header-height: 80px;
+    --header-height: 60px;
 
     --white:    #fff;
     --gray-100: #f8f9fa;
@@ -56,6 +56,8 @@
 
   .app-header-wrapper {
     display: none;
+    top: 0;
+    /* width: 100%; */
   }
 
   .app-aside-wrapper {
@@ -80,6 +82,10 @@
   @media screen and (max-width: 992px) {
     .app-content-wrapper {
       margin-left: 0px;
+    }
+    
+    .app-header-wrapper {
+      display: block;
     }
   }
 </style>
