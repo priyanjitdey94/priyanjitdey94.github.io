@@ -120,7 +120,7 @@
     .app-content-wrapper {
       margin-left: 0px;
     }
-    
+
     .app-header-wrapper {
       display: block;
     }

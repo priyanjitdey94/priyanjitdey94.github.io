@@ -12,6 +12,13 @@
     CodesandboxIcon,
     CodepenIcon
   } from 'svelte-feather-icons';
+  import { showAside } from '../store/stores.js';
+
+  const hideAside = () => {
+    if ($showAside) {
+      showAside.set(false);
+    }
+  };
 </script>
 
 <style>
@@ -28,9 +35,27 @@
     overflow-y: scroll;
   }
 
+  .aside-close-btn {
+    display: none;
+    position: absolute;
+    right: 1rem;
+    top: 0.75rem;
+    color: var(--gray-300);
+    font-size: 1.2rem;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: var(--gray-700);
+  }
+
   @media screen and (max-width: 992px) {
     .app-aside {
       border: 1px solid var(--gray-600);
+    }
+
+    .aside-close-btn {
+      display: inline;
     }
   }
 
@@ -78,7 +103,6 @@
 
   .aside-footer {
     min-height: 60px;
-    /* background-color: red; */
     margin-top: 1rem;
     border-top: 1px solid var(--gray-600);
     display: flex;
@@ -95,6 +119,7 @@
 </style>
 
 <div class='app-aside'>
+  <span class='aside-close-btn' on:click={hideAside}>x</span>
   <div class='aside-container'>
     <div class='aside-avatar'></div>
     <div class='aside-title'>Priyanjit Dey</div>
