@@ -66,12 +66,19 @@
   }
 
   .aside-avatar {
-    min-width: 100px;
-    min-height: 100px;
     border-radius: 50%;
+    border: 3px solid var(--gray-400);
     margin-top: 1rem;
     margin-bottom: 1rem;
-    background-color: var(--gray-500);
+  }
+  
+  .aside-avatar img {
+    display: block;
+    max-width: 125px;
+    max-height: 125px;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
   }
 
   .aside-title {
@@ -121,7 +128,9 @@
 <div class='app-aside'>
   <span class='aside-close-btn' on:click={hideAside}>x</span>
   <div class='aside-container'>
-    <div class='aside-avatar'></div>
+    <div class='aside-avatar'>
+      <img src='images/dp.jpg' alt='profile picture' />
+    </div>
     <div class='aside-title'>Priyanjit Dey</div>
     <div class='aside-subtitle'>JavaScript Developer</div>
     <Separator />
