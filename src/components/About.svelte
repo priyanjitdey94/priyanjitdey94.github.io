@@ -28,6 +28,12 @@
     overflow-y: scroll;
   }
 
+  @media screen and (max-width: 992px) {
+    .app-aside {
+      border: 1px solid var(--gray-600);
+    }
+  }
+
   .aside-container {
     display: flex;
     flex-direction: column;

@@ -2,6 +2,21 @@
   import Header from '../components/Header.svelte';
   import About from '../components/About.svelte';
   import Content from '../components/Content.svelte';
+  import { showAside } from '../store/stores.js';
+
+  const resizeHandler = event => {
+    let width = event.target.innerWidth;
+
+    if (width > 992 && $showAside) {
+      showAside.set(false);
+    }
+  };
+
+  const hideAside = () => {
+    if ($showAside) {
+      showAside.set(false);
+    }
+  };
 </script>
 
 <style>
@@ -52,21 +67,43 @@
 
 	.app-wrapper {
     min-height: 100vh;
+    position: relative;
 	}
 
   .app-header-wrapper {
     display: none;
     top: 0;
-    /* width: 100%; */
   }
 
   .app-aside-wrapper {
     position: fixed;
     width: var(--aside-width);
-    /* border-right: 1px solid var(--gray-400); */
     min-height: 100vh;
     transform: translateX(calc(-1 * var(--aside-width)));
     transition: transform 0.3s ease;
+    top: 0.5rem;
+    z-index: 1000;
+  }
+
+  .show-aside {
+    transform: translateX(0px);
+  }
+  
+  .blur-bg {
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+  }
+
+  .cover-bg {
+    opacity: 0;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 
   .app-content-wrapper {
@@ -90,14 +127,19 @@
   }
 </style>
 
+<svelte:window on:resize={resizeHandler} />
+
 <div class='app-wrapper'>
-  <div class='app-header-wrapper'>
+  <div class={'app-header-wrapper' + ($showAside ? ' blur-bg' : '')}>
     <Header />
   </div>
-  <div class='app-aside-wrapper'>
-    <About />
-  </div>
-  <div class='app-content-wrapper'>
+  <div class={'app-content-wrapper' + ($showAside ? ' blur-bg' : '')}>
     <Content />
+  </div>
+  <div class={'app-aside-wrapper' + ($showAside ? ' show-aside' : '')}>
+    {#if $showAside}
+      <div class='cover-bg' on:click={hideAside}></div>
+    {/if}
+    <About />
   </div>
 </div>

@@ -2,6 +2,12 @@
   import { 
     MenuIcon
   } from 'svelte-feather-icons';
+  import { showAside } from '../store/stores.js';
+
+  const menuClick = event => {
+    event.stopPropagation();
+    showAside.update(val => !val);
+  }
 </script>
 
 <style>
@@ -30,7 +36,7 @@
 
 <div class='app-header'>
   <span>Priyanjit Dey</span>
-  <div class='hamburger'>
+  <div class='hamburger' on:click={menuClick}>
     <span><MenuIcon size='24' /></span>
   </div>
 </div>

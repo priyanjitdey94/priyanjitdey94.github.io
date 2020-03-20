@@ -28,6 +28,12 @@
     /* overflow-y: scroll; */
   }
 
+  @media screen and (max-width: 576px) {
+    .app-content {
+      padding: 1.2rem;
+    }
+  }
+
   .content-item:not(:first-child) {
     margin-top: 1.5rem;
   }
