@@ -1,5 +1,6 @@
 <script>
   import Separator from './Separator.svelte';
+  import Skill from './Skill.svelte';
   import { 
     UserIcon,
     BriefcaseIcon,
@@ -71,6 +72,10 @@
   .job-detail-description {
     margin-top: 1.5rem;
   }
+
+  .skill-set {
+    line-height: 2rem;
+  }
 </style>
 
 <div class='app-content'>
@@ -127,7 +132,21 @@
       <span class='content-item-header-text'>TECHNICAL SKILLS</span>
     </div>
     <Separator />
-    <div class='content-item-body'>
+    <div class='content-item-body skill-set'>
+      <Skill>JavaScript</Skill>
+      <Skill>TypeScript</Skill>
+      <Skill>ESNext</Skill>
+      <Skill>HTML</Skill>
+      <Skill>CSS</Skill>
+      <Skill>React</Skill>
+      <Skill>Redux</Skill>
+      <Skill>Svelte</Skill>
+      <Skill>BootStrap</Skill>
+      <Skill>SCSS</Skill>
+      <Skill>Webpack</Skill>
+      <Skill>Jest</Skill>
+      <Skill>Jasmine</Skill>
+      <Skill>Gulp</Skill>
     </div>
   </div>
   <div class='content-item'>
