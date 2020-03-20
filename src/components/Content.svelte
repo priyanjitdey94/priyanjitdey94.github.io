@@ -1,6 +1,7 @@
 <script>
   import Separator from './Separator.svelte';
   import Skill from './Skill.svelte';
+  import Accordion from './Accordion.svelte';
   import { 
     UserIcon,
     BriefcaseIcon,
@@ -12,6 +13,7 @@
     BookIcon,
     Edit2Icon
   } from 'svelte-feather-icons';
+  import Projects from '../info/projects.js';
 </script>
 
 <style>
@@ -156,6 +158,7 @@
     </div>
     <Separator />
     <div class='content-item-body'>
+      <Accordion items={Projects}/>
     </div>
   </div>
   <div class='content-item'>
