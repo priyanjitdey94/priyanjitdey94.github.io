@@ -1,5 +1,5 @@
 {
-  "name": "svelte-app",
+  "name": "priyanjitdey94.github.io",
   "version": "1.0.0",
   "devDependencies": {
     "cross-env": "^5.2.0",
@@ -15,7 +15,8 @@
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
-    "dev": "webpack-dev-server --content-base public"
+    "dev": "webpack-dev-server --content-base public",
+    "publish": "npm run build && surge public"
   },
   "dependencies": {
     "svelte-feather-icons": "^3.2.2"
