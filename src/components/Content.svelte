@@ -75,6 +75,7 @@
 
   .job-detail-row span {
     font-style: italic;
+    font-size: 0.9rem;
   }
 
   .job-detail-description {
@@ -107,15 +108,15 @@
       <div class='job-experience-container'>
         <div class='job-detail-row'>
           <a href='https://www.fusioncharts.com/' target="_blank" rel="noopener noreferrer">FusionCharts <ExternalLinkIcon size='15' /></a>
-          <div>
-            <GlobeIcon size='12' />
+          <div style='display: flex; align-items: center;'>
+            <GlobeIcon size='12' /> &nbsp;
             <span>Kolkata, India</span>
           </div>
         </div>
         <div class='job-detail-row'>
           <div href=''>Software Engineer</div>
-          <div>
-            <ClockIcon size='12' />
+          <div style='display: flex; align-items: center;'>
+            <ClockIcon size='12' /> &nbsp;
             <span>July, 2017 - Present</span>
           </div>
         </div>

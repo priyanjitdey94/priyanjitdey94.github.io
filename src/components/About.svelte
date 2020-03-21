@@ -10,7 +10,8 @@
     TwitterIcon,
     LinkedinIcon,
     CodesandboxIcon,
-    CodepenIcon
+    CodepenIcon,
+    HeartIcon
   } from 'svelte-feather-icons';
   import { showAside } from '../store/stores.js';
 
@@ -108,10 +109,8 @@
     padding-left: 0.75rem;
   }
 
-  .aside-footer {
-    min-height: 60px;
-    margin-top: 1rem;
-    border-top: 1px solid var(--gray-600);
+  .aside-social-profile {
+    min-height: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -119,9 +118,20 @@
     width: 100%;
   }
 
-  .aside-footer-icon {
+  .aside-profile-icon {
     padding: 0 0.5rem;
     color: var(--gray-300);
+  }
+
+  .aside-footer {
+    min-height: 50px;
+    margin-top: 1rem;
+    color: var(--gray-500);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
 </style>
 
@@ -133,6 +143,26 @@
     </div>
     <div class='aside-title'>Priyanjit Dey</div>
     <div class='aside-subtitle'>JavaScript Developer</div>
+    <div class='aside-social-profile'>
+      <a href='https://github.com/priyanjitdey94' class='aside-profile-icon' target="_blank" rel="noopener noreferrer">
+        <GithubIcon size='24' />
+      </a>
+      <a href='https://www.facebook.com/priyanjit.dey.3/' class='aside-profile-icon' target="_blank" rel="noopener noreferrer">
+        <FacebookIcon size='24' />
+      </a>
+      <a href='https://twitter.com/priyanjitdey94' class='aside-profile-icon' target="_blank" rel="noopener noreferrer">
+        <TwitterIcon size='24' />
+      </a>
+      <a href='https://www.linkedin.com/in/priyanjit-dey-5b0101102/' class='aside-profile-icon' target="_blank" rel="noopener noreferrer">
+        <LinkedinIcon size='24' />
+      </a>
+      <a href='https://codesandbox.io/u/priyanjitdey94' class='aside-profile-icon' target="_blank" rel="noopener noreferrer">
+        <CodesandboxIcon size='24' />
+      </a>
+      <a href='https://codepen.io/priyanjitdey94' class='aside-profile-icon' target="_blank" rel="noopener noreferrer">
+        <CodepenIcon size='24' />
+      </a>
+    </div>
     <Separator />
     <div class='aside-list-item'>
       <MapPinIcon size='18' />
@@ -153,23 +183,6 @@
     </div>
   </div>
   <div class='aside-footer'>
-    <a href='https://github.com/priyanjitdey94' class='aside-footer-icon' target="_blank" rel="noopener noreferrer">
-      <GithubIcon size='24' />
-    </a>
-    <a href='https://www.facebook.com/priyanjit.dey.3/' class='aside-footer-icon' target="_blank" rel="noopener noreferrer">
-      <FacebookIcon size='24' />
-    </a>
-    <a href='https://twitter.com/priyanjitdey94' class='aside-footer-icon' target="_blank" rel="noopener noreferrer">
-      <TwitterIcon size='24' />
-    </a>
-    <a href='https://www.linkedin.com/in/priyanjit-dey-5b0101102/' class='aside-footer-icon' target="_blank" rel="noopener noreferrer">
-      <LinkedinIcon size='24' />
-    </a>
-    <a href='https://codesandbox.io/u/priyanjitdey94' class='aside-footer-icon' target="_blank" rel="noopener noreferrer">
-      <CodesandboxIcon size='24' />
-    </a>
-    <a href='https://codepen.io/priyanjitdey94' class='aside-footer-icon' target="_blank" rel="noopener noreferrer">
-      <CodepenIcon size='24' />
-    </a>
+    Made with &nbsp; <HeartIcon size='14' /> &nbsp; using Svelte
   </div>
 </div>
