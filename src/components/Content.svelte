@@ -107,12 +107,14 @@
     <Separator />
     <div class='content-item-body'>
       <p>Hey there!</p>
-      <p>I did my graduation from IEM, Kolkata with a major in computer science carrying 8.72 DGPA. After college, I joined FusionCharts as javascript
-      developer where I worked on the primary product of the company, FusionCharts Suite XT. While most of work was focussed on using VanillaJS, I also got
-      the opportunity to delve into other frameworks and libraries like React, Svelte, Angular.</p>
+      <p>I did my graduation from IEM, Kolkata with a major in computer science carrying 8.72 DGPA. After college, I joined FusionCharts as JavaScript
+      developer where I worked on the core product of the company, FusionCharts Suite XT. While most of work required the use of VanillaJS, I also got
+      the opportunity to delve into other frameworks and libraries like React, Svelte and Angular.</p>
       <p>I have worked extensively on the performance optimizations of FusionCharts, which later proved to be a competitive advantage over other
-      charting libraries. I have one article as well, please check the articles section of this page.</p>
-      <p>Starting last year, I started mentoring junior developers by guiding them on how to navigate through challenging problems. I have also taken 
+      charting libraries. I have written an article as well, please check the publications section of this page.</p>
+      <p>I was also involved in creating a new product called FusionTime, time-series visualizations, where my main area of ownership
+      was time-axis and all its related functionalities.</p>
+      <p>Since last year, I started mentoring junior developers by guiding them on how to navigate through challenging problems. I have also taken 
       part in hiring process and helped hire 4 key members of the team.</p>
       <p>I am always up for a chat. Feel free to reach out.</p>
     </div>
@@ -143,8 +145,8 @@
           <ul>
             <li>Provide guidance to a team of junior developers, helping them with research and understanding of new feature requirements. Take part in planning of release scopes and sprints.</li>
             <li>Planning and development of discontinuous time axis to accomodate stock data information in FusionTime.</li>
-            <li>Developed FaberJS, a platform agnostic javascript implementation of CSS grid. FaberJS can be used to implement CSS grids in SVG.</li>
-            <li>Created a wrapper of FusionCharts for Svelte to help capture the market of Svelte developers as no other charting libraries provides a wrapper.</li>
+            <li>Developed FaberJS, a platform agnostic JavaScript implementation of CSS grid. FaberJS can be used to implement CSS grids in SVG.</li>
+            <li>Created a wrapper of FusionCharts for Svelte to help capture the market of Svelte developers as no other charting libraries provide a wrapper.</li>
             <li>Created new visualizations: Sankey diagram and Chord diagram.</li>
             <li>Take part in hiring process. Helped in hiring 4 key members of the team.</li>
           </ul>
