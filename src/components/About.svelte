@@ -22,7 +22,7 @@
   };
 
   const fileDownload = () => {
-    window.location = 'resume.pdf';
+    window.location = 'Priyanjit_Dey_Resume.pdf';
   };
 </script>
 

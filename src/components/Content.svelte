@@ -86,7 +86,16 @@
     line-height: 2rem;
   }
 
-  .school {}
+  .school {
+    color: inherit;
+    /* text-decoration: none; */
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+
+  .publication-item {
+    font-size: 1rem !important;
+  }
 </style>
 
 <div class='app-content'>
@@ -218,9 +227,9 @@
           </ul>
         </div> 
         <div class='job-detail-row'>
-          <div href=''>Atreyee D.A.V Public School</div>
+          <div class='school'>Atreyee D.A.V Public School</div>
           <div style='display: flex; align-items: center;'>
-            <ClockIcon size='12' /> &nbsp;
+            <GlobeIcon size='12' /> &nbsp;
             <span>South Dinajpur, India</span>
           </div>
         </div>
@@ -240,6 +249,15 @@
     </div>
     <Separator />
     <div class='content-item-body'>
+      <div class='job-detail-description'>
+        <ul>
+          <li>
+            <a class='publication-item' href='https://medium.com/@priyanjit.dey/text-wrapping-and-ellipsis-overflow-a-platform-independent-solution-30fb737ff609' target="_blank" rel="noopener noreferrer">
+              Text-wrapping and ellipsis overflow: A platform independent solution 
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
