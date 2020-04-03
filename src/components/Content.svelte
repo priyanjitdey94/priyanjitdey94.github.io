@@ -95,7 +95,15 @@
     </div>
     <Separator />
     <div class='content-item-body'>
-      Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!
+      <p>Hey there!</p>
+      <p>I did my graduation from IEM, Kolkata with a major in computer science carrying 8.72 DGPA. After college, I joined FusionCharts as javascript
+      developer where I worked on the primary product of the company, FusionCharts Suite XT. While most of work was focussed on using VanillaJS, I also got
+      the opportunity to delve into other frameworks and libraries like React, Svelte, Angular.</p>
+      <p>I have worked extensively on the performance optimizations of FusionCharts, which later proved to be a competitive advantage over other
+      charting libraries. I have one article as well, please check the articles section of this page.</p>
+      <p>Starting last year, I started mentoring junior developers by guiding them on how to navigate through challenging problems. I have also taken 
+      part in hiring process and helped hire 4 key members of the team.</p>
+      <p>I am always up for chat. Please feel free to reach out.</p>
     </div>
   </div>
   <div class='content-item'>

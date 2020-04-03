@@ -20,6 +20,10 @@
       showAside.set(false);
     }
   };
+
+  const fileDownload = () => {
+    window.location = 'resume.pdf';
+  };
 </script>
 
 <style>
@@ -179,7 +183,7 @@
     <Separator />
     <div class='aside-list-item'>
       <DownloadIcon size='18' />
-      <span class='aside-list-item-description'>Download Résumé</span>
+      <span class='aside-list-item-description' on:click={() => { fileDownload(); }}>Download Résumé</span>
     </div>
   </div>
   <div class='aside-footer'>
