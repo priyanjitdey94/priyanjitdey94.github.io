@@ -15,7 +15,7 @@ export default [
     open: false,
     url: 'https://github.com/fusioncharts/faberjs',
     stack: ['JavaScript'],
-    description: `Platforms like SVG, HTML Canvas do not support any layout specific CSS like grid, flexbox which makes managing layout of visual elements difficult and clumsy. FaberJS is a solution to this problem and supports CSS grids as of now.<br>Technologies used: JavaScript.`
+    description: `Platforms like SVG, HTML Canvas do not support any layout specific CSS like grid, flexbox which makes managing layout of visual elements difficult and clumsy. FaberJS is a solution to this problem and supports CSS grids as of now.`
   },
   {
     id: 2,
@@ -24,6 +24,6 @@ export default [
     open: false,
     url: 'https://github.com/fable-studio/kraft',
     stack: ['React', 'Redux', 'SCSS', 'FusionCharts'],
-    description: `Fable Studio can be used to create infographics. Created as part of a company-wide hackathon in less than 5 days.<br>Technologies used: React, Redux, SCSS, FusionCharts.`
+    description: `Fable Studio can be used to create infographics. Created as part of a company-wide hackathon in less than 5 days.Technologies used: React, Redux, SCSS, FusionCharts.`
   }
 ];

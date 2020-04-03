@@ -79,7 +79,7 @@
   }
 
   .job-detail-description {
-    margin-top: 1.5rem;
+    margin-top: 0.25rem;
   }
 
   .skill-set {
@@ -103,7 +103,7 @@
       charting libraries. I have one article as well, please check the articles section of this page.</p>
       <p>Starting last year, I started mentoring junior developers by guiding them on how to navigate through challenging problems. I have also taken 
       part in hiring process and helped hire 4 key members of the team.</p>
-      <p>I am always up for chat. Please feel free to reach out.</p>
+      <p>I am always up for a chat. Feel free to reach out.</p>
     </div>
   </div>
   <div class='content-item'>
@@ -122,21 +122,35 @@
           </div>
         </div>
         <div class='job-detail-row'>
-          <div href=''>Software Engineer</div>
+          <div href=''>Senior Software Engineer</div>
           <div style='display: flex; align-items: center;'>
             <ClockIcon size='12' /> &nbsp;
-            <span>July, 2017 - Present</span>
+            <span>April, 2019 - Present</span>
           </div>
         </div>
         <div class='job-detail-description'>
-          Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.
           <ul>
             <li>Provide guidance to a team of junior developers, helping them with research and understanding of new feature requirements. Take part in planning of release scopes and sprints.</li>
+            <li>Planning and development of discontinuous time axis to accomodate stock data information in FusionTime.</li>
+            <li>Developed FaberJS, a platform agnostic javascript implementation of CSS grid. FaberJS can be used to implement CSS grids in SVG.</li>
+            <li>Created a wrapper of FusionCharts for Svelte to help capture the market of Svelte developers as no other charting libraries provides a wrapper.</li>
+            <li>Created new visualizations: Sankey diagram and Chord diagram.</li>
+            <li>Take part in hiring process. Helped in hiring 4 key members of the team.</li>
+          </ul>
+        </div> 
+        <div class='job-detail-row'>
+          <div href=''>Software Engineer</div>
+          <div style='display: flex; align-items: center;'>
+            <ClockIcon size='12' /> &nbsp;
+            <span>July, 2017 - March, 2019</span>
+          </div>
+        </div>
+        <div class='job-detail-description'>
+          <ul>
             <li>Revamped FusionCharts codebase from ES3 to ES6. Increased modularity and extensibility of codebase to make rapid development and quick iterations of new features easier.</li>
-            <li>Worked extensively on performance optimizations of FusionCharts. Rewrote caching module of RedRaphael, rendering engine. Improved performance of S​martlabel​ by ~75%.</li>
+            <li>Worked extensively on performance optimizations of FusionCharts. Rewrote caching module of the rendering engine. Improved performance of S​martlabel​ by ~75%.</li>
             <li>Planning and development of FusionTime. Developed core functionalities of time scale from scratch which is used by various time-dependent FusionTime components.</li>
             <li>Created internal dashboards using React, Redux.</li>
-            <li>Created new visualizations: Sankey diagram and Chord diagram.</li>
             <li>Maintenance of front-end wrappers(React, Angular, Svelte).</li>
           </ul>
         </div> 
@@ -151,8 +165,6 @@
     <Separator />
     <div class='content-item-body skill-set'>
       <Skill>JavaScript</Skill>
-      <Skill>TypeScript</Skill>
-      <Skill>ESNext</Skill>
       <Skill>HTML</Skill>
       <Skill>CSS</Skill>
       <Skill>React</Skill>

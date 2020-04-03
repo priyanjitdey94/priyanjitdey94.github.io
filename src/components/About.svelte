@@ -163,9 +163,9 @@
       <a href='https://codesandbox.io/u/priyanjitdey94' class='aside-profile-icon' target="_blank" rel="noopener noreferrer">
         <CodesandboxIcon size='24' />
       </a>
-      <a href='https://codepen.io/priyanjitdey94' class='aside-profile-icon' target="_blank" rel="noopener noreferrer">
+      <!-- <a href='https://codepen.io/priyanjitdey94' class='aside-profile-icon' target="_blank" rel="noopener noreferrer">
         <CodepenIcon size='24' />
-      </a>
+      </a> -->
     </div>
     <Separator />
     <div class='aside-list-item'>
