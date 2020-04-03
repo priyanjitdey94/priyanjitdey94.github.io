@@ -85,6 +85,8 @@
   .skill-set {
     line-height: 2rem;
   }
+
+  .school {}
 </style>
 
 <div class='app-content'>
@@ -195,6 +197,40 @@
     </div>
     <Separator />
     <div class='content-item-body'>
+      <div class='job-experience-container'>
+        <div class='job-detail-row'>
+          <div class='school'>Institute of Engineering & Management(IEM), MAKAUT</div>
+          <div style='display: flex; align-items: center;'>
+            <GlobeIcon size='12' /> &nbsp;
+            <span>Kolkata, India</span>
+          </div>
+        </div>
+        <div class='job-detail-row'>
+          <div href=''>B.Tech Computer Science & Engineering</div>
+          <div style='display: flex; align-items: center;'>
+            <ClockIcon size='12' /> &nbsp;
+            <span>August, 2013 - June, 2017</span>
+          </div>
+        </div>
+        <div class='job-detail-description'>
+          <ul>
+            <li>DGPA: 8.72 out of 10</li>
+          </ul>
+        </div> 
+        <div class='job-detail-row'>
+          <div href=''>Atreyee D.A.V Public School</div>
+          <div style='display: flex; align-items: center;'>
+            <ClockIcon size='12' /> &nbsp;
+            <span>South Dinajpur, India</span>
+          </div>
+        </div>
+        <div class='job-detail-description'>
+          <ul>
+            <li>94% in 12th standard(Science).</li>
+            <li>CGPA 10(~95%) in 10th standard.</li>
+          </ul>
+        </div> 
+      </div>
     </div>
   </div>
   <div class='content-item'>
