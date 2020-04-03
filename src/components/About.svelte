@@ -181,10 +181,10 @@
       <span class='aside-list-item-description'>priyanjit.dey@gmail.com</span>
     </div>
     <Separator />
-    <div class='aside-list-item'>
+    <!-- <div class='aside-list-item'>
       <DownloadIcon size='18' />
       <span class='aside-list-item-description' on:click={() => { fileDownload(); }}>Download Résumé</span>
-    </div>
+    </div> -->
   </div>
   <div class='aside-footer'>
     Made with &nbsp; <HeartIcon size='14' /> &nbsp; using Svelte
